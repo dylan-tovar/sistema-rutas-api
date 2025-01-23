@@ -1,0 +1,39 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Entornos virtuales
+env/
+venv/
+
+# Configuración del entorno IDE/Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de registro
+*.log
+
+# Configuración de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración personalizados
+*.env
+.env.*
+
+# Archivos de compilación y distribución
+build/
+dist/
+*.egg-info/
+
+# Archivos de test
+.coverage
+*.pytest_cache/
+.tox/
+.nox/
+
+# Archivos de Docker/Contenedores (si aplica)
+docker-compose.override.yml
